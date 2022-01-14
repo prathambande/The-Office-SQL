@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+.formcontrol{
+    display: block;
+    gap: 20px;
+}
+
+.comp{
+    padding-bottom: 1%;
+}
+
+.comp label{
+    display: flex;
+    font-size: 1.5rem;
+    color: rgb(200, 255, 0);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.comp input{
+    font: inherit;  
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    display: flex;
+    width: 95%;
+    max-width: 100%;
+}
+
+.formcontrol button{
+    font: inherit;
+    cursor: pointer;
+    background-color: rgb(243, 154, 82);
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    border: 1px solid rgb(82, 98, 243);
+}
+
+.formcontrol button:hover{
+    background-color: rgb(241, 115, 12);
+    box-shadow: 0 1px 2px black;
+}
